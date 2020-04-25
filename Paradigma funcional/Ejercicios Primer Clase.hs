@@ -86,12 +86,12 @@ suma = (\ x y -> x + y)
 sumarDos = (\ x -> suma x 2)
 
 -- 7)  Dada las siguientes definiciones:
---7.1) apply f x = f x
---¿ A qué se reduce la siguiente expresión ?.
---> apply fst  (const 5 7, 4)
+-- 7.1) apply f x = f x
+--  ¿ A qué se reduce la siguiente expresión ?.
+-- -> apply fst  (const 5 7, 4)
  
---7.2) twice f x = (f . f) x
---¿ A qué se reduce la siguiente expresión ?.
--->twice (`div` 2) 12
+-- 7.2) twice f x = (f . f) x
+-- ¿ A qué se reduce la siguiente expresión ?.
+-- ->twice (`div` 2) 12
 
-Ambas expresiones no están dentro del scope.
+--Ambas expresiones no están dentro del scope.
